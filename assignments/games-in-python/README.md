@@ -1,19 +1,43 @@
+# 📘 Assignment: Games in Python
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Create a playable text-based game in Python that practices using strings, loops, conditionals, and user input through a classic word-guessing challenge.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Build the Hangman Game
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Write a Python program that lets the player guess letters in a hidden word before running out of attempts.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Randomly choose a word from a predefined list of words
+- Display the hidden word as underscores or blanks for each letter
+- Accept one letter guess at a time from the player
+- Reveal correctly guessed letters in the word
+- Track incorrect guesses and remaining attempts
+- End the game when the word is fully guessed or the player runs out of turns
+- Print a clear win or lose message at the end
+
+### 🛠️ Add Game Flow and Feedback
+
+#### Description
+Improve the game so it feels polished and easy to play by adding clear feedback after each guess and allowing repeated rounds.
+
+#### Requirements
+Completed program should:
+
+- Show the current word progress after every guess
+- Inform the player when a letter is already guessed
+- Keep track of wrong guesses and display them to the user
+- Ask whether the player wants to play again after the round ends
+- Use readable terminal output with simple, consistent formatting
+- Example output:
+  ```python
+  Word: _ _ _ _ _
+  Guess a letter: a
+  Correct! You have 6 guesses left.
+  ```
