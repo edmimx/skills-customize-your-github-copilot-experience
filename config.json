@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-file-organizer",
+      "title": "Python File Organizer and Text Analyzer",
+      "description": "Sort files into categories and analyze text content using Python fundamentals",
+      "path": "assignments/python-file-organizer",
+      "dueDate": "2026-10-09",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
